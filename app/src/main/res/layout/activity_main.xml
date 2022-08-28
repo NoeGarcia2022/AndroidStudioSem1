@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="Ingrese el primer valor:"
+        android:textSize="24sp"
+        android:layout_marginLeft="25dp"/>
+
+    <EditText
+        android:id="@+id/txt_num1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="0"
+        android:inputType="phone"
+        android:textSize="24sp"
+        android:layout_marginLeft="25dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Ingrese el segundo valor:"
+        android:textSize="24sp"
+        android:layout_marginLeft="25dp" />
+
+    <EditText
+        android:id="@+id/txt_num2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="0"
+        android:inputType="phone"
+        android:textSize="24sp"
+        android:layout_marginLeft="25dp"
+         />
+
+    <Button
+        android:id="@+id/btnSumar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:onClick="Sumar"
+        android:text="Calcular"
+        android:layout_marginLeft="25dp" />
+
+    <TextView
+        android:id="@+id/txt_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Resultado"
+        android:textSize="34sp"
+        android:layout_marginLeft="25dp"
+        />
+
+</LinearLayout>
